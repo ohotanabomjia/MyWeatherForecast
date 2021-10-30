@@ -1,0 +1,34 @@
+.currentWeather{
+    background: #fff;
+    margin: 30px 30px;
+    padding: 30px;
+}
+
+
+.currentWeather__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    font-weight: 400;
+    color: grey;
+}
+
+.currentWeather__main__imgBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currentWeather__main__degrees{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.currentWeather__main__degrees__main{
+    font-size: 40px;
+    color: #000;
+}
+.currentWeather__main__degrees__sub{
+    font-size: 15px;
+}

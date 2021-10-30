@@ -1,0 +1,1 @@
+export const kelvToCels = (kelv)=> kelv - 273.15

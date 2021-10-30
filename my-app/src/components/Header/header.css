@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.header__title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(5, 97, 97);
+    line-height: 20px;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    background: #fff;
+
+    border: 1px solid grey;
+    height: 30px;
+}
+.header__search__input{
+    padding: 0;
+    height: 100%;
+    border: none;
+}
+
+.header__search__btn{
+    padding: 0;
+    height: 25px;
+    border: none;
+    background: #fff;
+
+}
+
+.header__search__btn img{
+    height: 100%;
+}

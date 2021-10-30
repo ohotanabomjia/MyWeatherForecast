@@ -1,0 +1,27 @@
+.page-select{
+    background: rgba(55, 51, 51, 0.809);
+    padding: 0 30px;
+    height: 40px;
+    box-sizing:border-box;
+
+}
+.page-select__btn{
+    background-color: transparent;
+    box-sizing:border-box;
+    height: 39px;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+.page-select__btn:hover{
+    background-color:rgb(88, 88, 94);
+    border-right:1px solid grey ;
+    border-left:1px solid grey ;
+}
+
+.page-select__btn.active{
+    border-bottom: 2px solid rgb(22, 194, 194);
+    border-right:1px solid grey ;
+    border-left:1px solid grey ;
+}
